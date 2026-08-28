@@ -1,6 +1,6 @@
 import random
 number = random.randint(1,100)
-#while True:
+while True:
     try:
         guessnum = int(input('Guess a number between 1 and 100: '))
     except ValueError:
